@@ -1,5 +1,5 @@
 Feature: Facebookreg
-#sample message
+#sample message2
 @Facebookreg   @Testrun
   Scenario: Validating facebook login page
   Given user navigates to facebook login page
