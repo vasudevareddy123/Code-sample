@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="62.254" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Selenium\RX-Renewal_test\RX-Renewal"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Selenium\RX-Renewal_test\RX-Renewal"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\fly2v\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\fly2v\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7869218467264701545.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_65/bin/server;C:/Program Files/Java/jre1.8.0_65/bin;C:/Program Files/Java/jre1.8.0_65/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Users\fly2v\AppData\Local\Microsoft\WindowsApps;;C:\Users\fly2v\Downloads\eclipse-java-neon-2-RC3-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\fly2v"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="fly2v"/>
+    <property name="java.class.path" value="/C:/Users/fly2v/Downloads/eclipse-java-neon-2-RC3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Selenium\RX-Renewal_test\RX-Renewal\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="CucumberRunner" time="48.405">
+    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;1484192551083	addons.manager	DEBUG	Application has been upgraded&#10;1484192551096	addons.xpi	DEBUG	startup&#10;1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-local&#10;1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-share&#10;1484192551098	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions\webdriver-staging&#10;1484192551098	addons.xpi	DEBUG	checkForChanges&#10;1484192551105	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{&quot;name&quot;:&quot;app-global&quot;,&quot;addons&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;mtime&quot;:1482549752696,&quot;rdfTime&quot;:1402020940000}}},{&quot;name&quot;:&quot;app-profile&quot;,&quot;addons&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Users\\fly2v\\AppData\\Local\\Temp\\anonymous1320797976506498250webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;mtime&quot;:1484192549863,&quot;rdfTime&quot;:1484192549790}}}]&#10;1484192551109	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions.json&#10;1484192551110	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile&#10;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#10;1484192551280	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible&#10;1484192551281	DeferredSave.extensions.json	DEBUG	Save changes&#10;1484192551282	DeferredSave.extensions.json	DEBUG	Save changes&#10;1484192551282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global&#10;1484192551283	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible&#10;1484192551283	DeferredSave.extensions.json	DEBUG	Save changes&#10;1484192551283	DeferredSave.extensions.json	DEBUG	Save changes&#10;1484192551287	addons.xpi	DEBUG	Updating database with changes to installed add-ons&#10;1484192551287	addons.xpi-utils	DEBUG	Updating add-on states&#10;1484192551287	addons.xpi-utils	DEBUG	Writing add-ons list&#10;1484192553040	DeferredSave.extensions.json	DEBUG	Starting timer&#10;1484192553093	DeferredSave.extensions.json	DEBUG	Starting write&#10;1484192553171	DeferredSave.extensions.json	WARN	Write failed&#10;1484192553171	addons.xpi-utils	WARN	Failed to save XPI database&#10;System JS : ERROR (null):0 - uncaught exception: [object Object]&#10;JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]&#10;console.error: &#10;  Could not write session state file &#10;  C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js&#10;  Message: Win error 32 during operation move on file C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js.tmp (The process cannot access the file because it is being used by another process.&#13;&#10;)&#10;JavaScript error: chrome://browser/content/urlbarBindings.xml, line 651: aUrl is undefined&#10;1484192577468	addons.manager	DEBUG	shutdown&#10;1484192577468	addons.xpi	DEBUG	shutdown&#10;1484192577468	addons.xpi-utils	DEBUG	shutdown&#10;1484192577469	DeferredSave.extensions.json	DEBUG	Save changes&#10;1484192577470	DeferredSave.extensions.json	DEBUG	Flush called while data is dirty&#10;1484192577476	DeferredSave.extensions.json	DEBUG	Starting write&#10;1484192577511	DeferredSave.extensions.json	DEBUG	Write succeeded&#10;1484192577511	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16&#10;1484192577511	addons.xpi	DEBUG	Notifying XPI shutdown observers&#10;1484192577515	addons.manager	DEBUG	Async provider shutdown done&#10;&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;LAPTOP-MTD81E0F&apos;, ip: &apos;192.168.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: driver.version: FirefoxDriver" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+1484192551083	addons.manager	DEBUG	Application has been upgraded
+1484192551096	addons.xpi	DEBUG	startup
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1484192551098	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions\webdriver-staging
+1484192551098	addons.xpi	DEBUG	checkForChanges
+1484192551105	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1482549752696,"rdfTime":1402020940000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\fly2v\\AppData\\Local\\Temp\\anonymous1320797976506498250webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1484192549863,"rdfTime":1484192549790}}}]
+1484192551109	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions.json
+1484192551110	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1484192551280	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1484192551281	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1484192551283	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551287	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1484192551287	addons.xpi-utils	DEBUG	Updating add-on states
+1484192551287	addons.xpi-utils	DEBUG	Writing add-ons list
+1484192553040	DeferredSave.extensions.json	DEBUG	Starting timer
+1484192553093	DeferredSave.extensions.json	DEBUG	Starting write
+1484192553171	DeferredSave.extensions.json	WARN	Write failed
+1484192553171	addons.xpi-utils	WARN	Failed to save XPI database
+System JS : ERROR (null):0 - uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js
+  Message: Win error 32 during operation move on file C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js.tmp (The process cannot access the file because it is being used by another process.
+)
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 651: aUrl is undefined
+1484192577468	addons.manager	DEBUG	shutdown
+1484192577468	addons.xpi	DEBUG	shutdown
+1484192577468	addons.xpi-utils	DEBUG	shutdown
+1484192577469	DeferredSave.extensions.json	DEBUG	Save changes
+1484192577470	DeferredSave.extensions.json	DEBUG	Flush called while data is dirty
+1484192577476	DeferredSave.extensions.json	DEBUG	Starting write
+1484192577511	DeferredSave.extensions.json	DEBUG	Write succeeded
+1484192577511	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1484192577511	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1484192577515	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-MTD81E0F', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+1484192551083	addons.manager	DEBUG	Application has been upgraded
+1484192551096	addons.xpi	DEBUG	startup
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1484192551098	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions\webdriver-staging
+1484192551098	addons.xpi	DEBUG	checkForChanges
+1484192551105	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1482549752696,"rdfTime":1402020940000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\fly2v\\AppData\\Local\\Temp\\anonymous1320797976506498250webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1484192549863,"rdfTime":1484192549790}}}]
+1484192551109	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions.json
+1484192551110	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1484192551280	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1484192551281	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1484192551283	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551287	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1484192551287	addons.xpi-utils	DEBUG	Updating add-on states
+1484192551287	addons.xpi-utils	DEBUG	Writing add-ons list
+1484192553040	DeferredSave.extensions.json	DEBUG	Starting timer
+1484192553093	DeferredSave.extensions.json	DEBUG	Starting write
+1484192553171	DeferredSave.extensions.json	WARN	Write failed
+1484192553171	addons.xpi-utils	WARN	Failed to save XPI database
+System JS : ERROR (null):0 - uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js
+  Message: Win error 32 during operation move on file C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js.tmp (The process cannot access the file because it is being used by another process.
+)
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 651: aUrl is undefined
+1484192577468	addons.manager	DEBUG	shutdown
+1484192577468	addons.xpi	DEBUG	shutdown
+1484192577468	addons.xpi-utils	DEBUG	shutdown
+1484192577469	DeferredSave.extensions.json	DEBUG	Save changes
+1484192577470	DeferredSave.extensions.json	DEBUG	Flush called while data is dirty
+1484192577476	DeferredSave.extensions.json	DEBUG	Starting write
+1484192577511	DeferredSave.extensions.json	DEBUG	Write succeeded
+1484192577511	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1484192577511	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1484192577515	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-MTD81E0F', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+1484192551083	addons.manager	DEBUG	Application has been upgraded
+1484192551096	addons.xpi	DEBUG	startup
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1484192551098	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions\webdriver-staging
+1484192551098	addons.xpi	DEBUG	checkForChanges
+1484192551105	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1482549752696,"rdfTime":1402020940000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\fly2v\\AppData\\Local\\Temp\\anonymous1320797976506498250webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1484192549863,"rdfTime":1484192549790}}}]
+1484192551109	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions.json
+1484192551110	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1484192551280	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1484192551281	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1484192551283	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551287	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1484192551287	addons.xpi-utils	DEBUG	Updating add-on states
+1484192551287	addons.xpi-utils	DEBUG	Writing add-ons list
+1484192553040	DeferredSave.extensions.json	DEBUG	Starting timer
+1484192553093	DeferredSave.extensions.json	DEBUG	Starting write
+1484192553171	DeferredSave.extensions.json	WARN	Write failed
+1484192553171	addons.xpi-utils	WARN	Failed to save XPI database
+System JS : ERROR (null):0 - uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js
+  Message: Win error 32 during operation move on file C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js.tmp (The process cannot access the file because it is being used by another process.
+)
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 651: aUrl is undefined
+1484192577468	addons.manager	DEBUG	shutdown
+1484192577468	addons.xpi	DEBUG	shutdown
+1484192577468	addons.xpi-utils	DEBUG	shutdown
+1484192577469	DeferredSave.extensions.json	DEBUG	Save changes
+1484192577470	DeferredSave.extensions.json	DEBUG	Flush called while data is dirty
+1484192577476	DeferredSave.extensions.json	DEBUG	Starting write
+1484192577511	DeferredSave.extensions.json	DEBUG	Write succeeded
+1484192577511	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1484192577511	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1484192577515	addons.manager	DEBUG	Async provider shutdown done
+
+</failure>
+    <system-err><![CDATA[Jan 11, 2017 9:42:27 PM org.apache.commons.configuration.ConfigurationFactory$FileConfigurationFactory createObject
+INFO: Trying to load configuration application.properties
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+1484192551083	addons.manager	DEBUG	Application has been upgraded
+1484192551096	addons.xpi	DEBUG	startup
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1484192551096	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1484192551098	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions\webdriver-staging
+1484192551098	addons.xpi	DEBUG	checkForChanges
+1484192551105	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1482549752696,"rdfTime":1402020940000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\fly2v\\AppData\\Local\\Temp\\anonymous1320797976506498250webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1484192549863,"rdfTime":1484192549790}}}]
+1484192551109	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\extensions.json
+1484192551110	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1484192551280	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1484192551281	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1484192551283	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551283	DeferredSave.extensions.json	DEBUG	Save changes
+1484192551287	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1484192551287	addons.xpi-utils	DEBUG	Updating add-on states
+1484192551287	addons.xpi-utils	DEBUG	Writing add-ons list
+1484192553040	DeferredSave.extensions.json	DEBUG	Starting timer
+1484192553093	DeferredSave.extensions.json	DEBUG	Starting write
+1484192553171	DeferredSave.extensions.json	WARN	Write failed
+1484192553171	addons.xpi-utils	WARN	Failed to save XPI database
+System JS : ERROR (null):0 - uncaught exception: [object Object]
+JavaScript error: chrome://fxdriver/content/server.js, line 61: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+console.error: 
+  Could not write session state file 
+  C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js
+  Message: Win error 32 during operation move on file C:\Users\fly2v\AppData\Local\Temp\anonymous1320797976506498250webdriver-profile\sessionstore.js.tmp (The process cannot access the file because it is being used by another process.
+)
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 651: aUrl is undefined
+1484192577468	addons.manager	DEBUG	shutdown
+1484192577468	addons.xpi	DEBUG	shutdown
+1484192577468	addons.xpi-utils	DEBUG	shutdown
+1484192577469	DeferredSave.extensions.json	DEBUG	Save changes
+1484192577470	DeferredSave.extensions.json	DEBUG	Flush called while data is dirty
+1484192577476	DeferredSave.extensions.json	DEBUG	Starting write
+1484192577511	DeferredSave.extensions.json	DEBUG	Write succeeded
+1484192577511	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1484192577511	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1484192577515	addons.manager	DEBUG	Async provider shutdown done
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.rxr.framework.StepLibrary.Facebookreg.launch(Facebookreg.java:28)
+	at com.rxr.framework.StepDefinition.FacebookregStep.user_navigates_to_facebook_login_page(FacebookregStep.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="CucumberRunner" time="11.868">
+    <failure message="junit.framework.AssertionFailedError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: junit.framework.AssertionFailedError
+Caused by: junit.framework.AssertionFailedError
+</failure>
+    <system-out><![CDATA[This is Before method
+]]></system-out>
+    <system-err><![CDATA[Jan 11, 2017 9:43:15 PM org.apache.commons.configuration.ConfigurationFactory$FileConfigurationFactory createObject
+INFO: Trying to load configuration application.properties
+]]></system-err>
+  </testcase>
+</testsuite>
